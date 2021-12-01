@@ -1,0 +1,26 @@
+-----------
+Operations and run-time inputs of our subjects
+-----------
+
+In each integration test, we started several server/client instances and performed various operations, to cover main subject features.
+Particularly for Thrift, xSocket, and Netty, which are all frameworks/libraries, we developed one sample application program for each of them to cover major functional features,
+and then exercised these subjects via executing corresponding applications.
+Besides the integration tests, the load and system tests were downloaded as parts of software packages from corresponding official project websites.
+In our subject executions, servers regularly and infinitely interact with relevant clients.
+The following are brief descriptions of operations and test inputs involved in all integration tests：
+
+	NioEcho: We started a server and a client, and then sent random text messages from the client to the server and then waited for the echoing of each message.
+	
+	MultiChat: We started a server and two clients. From one client, we sent random text messages to the server broadcasting them to all other clients.
+	
+	OpenChord: We started three nodes (A, B, and C) and then performed following operations: creating an overlay network on the node A, joining the network on the nodes B and C, inserting a new data entry to the network on the node C, searching and removing the data entry on the node A, and listing all data entries on the node B.
+	
+	Thrift: With a server and a client, a calculator application was developed. The client sent some basic arithmetic operations (addition, subtraction, multiplication, and division of two numbers) to the server and then got the calculation results from the server.
+	
+	xSocket: After a server and two clients started, the clients sent different text messages to the server.
+	
+	ZooKeeper: We created two nodes, searched them, looked up their attributes, updated their data association, and removed these two nodes eventually.
+	
+	Voldemort: We performed the following operations one by one: adding a key-value pair, finding the key for its value, removing the key, and retrieving the pair.
+
+	Netty: We started one server and one client, and then sent random messages from the client to the server.
