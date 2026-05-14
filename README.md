@@ -13,3 +13,11 @@ This repository was created automatically. The contents under this
 directory mirror what was downloaded from the original artifact link
 above; refer to that source for the authoritative version, licensing,
 and any updates.
+
+---
+
+## Original `README.md` (from the upstream artifact)
+
+# DistODD
+
+our novel framework for distributed services online distributed dynamic dependence analysis
