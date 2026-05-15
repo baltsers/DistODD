@@ -1,0 +1,147 @@
+ImpactSets.size() = 20 ImpactSets = {17={3, 6, 17, 21, 22, 23, 24, 25, 26, 27, 32}, 31={17, 31}, 13={13}, 11={11, 13}, 21={3, 6, 17, 21, 22, 23, 24, 25, 26, 27, 32}, 22={3, 6, 17, 22, 23, 24, 25, 26, 27, 32}, 24={3, 6, 17, 23, 24, 25, 26, 27, 32}, 3={3, 6, 17, 23, 24, 25, 26, 27, 32}, 25={17, 25, 26, 27, 32}, 26={17, 26, 27, 32}, 27={17, 27, 32}, 6={3, 5, 6, 12, 13, 17, 23, 24, 25, 26, 27, 28, 32}, 32={17, 32}, 9={9}, 8={8, 9}, 5={3, 5, 6, 12, 13, 17, 23, 24, 25, 26, 27, 28, 32}, 28={3, 6, 12, 13, 17, 23, 24, 25, 26, 27, 28, 32}, 30={9, 30}, 23={3, 6, 17, 23, 24, 25, 26, 27, 32}, 12={5, 6, 12, 13, 28}}
+==== DistODD impact set of [[<ChatServer.core.MainServer: void main(java.lang.String[])>]]  size=11 ====
+<ChatServer.handler.ClientSender: void <init>(ChatServer.handler.ClientInfo,ChatServer.core.ServerDispatcher)>
+<ChatServer.handler.ClientInfo: void setSender(ChatServer.handler.ClientSender)>
+<ChatServer.core.ServerDispatcher: void addClient(ChatServer.handler.ClientInfo)>
+<ChatServer.core.MainServer: void main(java.lang.String[])>
+<ChatServer.handler.ClientListener: void <init>(ChatServer.handler.ClientInfo,ChatServer.core.ServerDispatcher)>
+<ChatServer.handler.ClientInfo: void setListener(ChatServer.handler.ClientListener)>
+<ChatServer.handler.ClientListener: void run()>
+<ChatServer.handler.ClientInfo: void <init>()>
+<ChatServer.core.ServerDispatcher: void dispatchMessage(ChatServer.handler.ClientInfo,java.lang.String)>
+<ChatServer.handler.ClientInfo: void setSocket(java.net.Socket)>
+<ChatServer.handler.ClientInfo: java.net.Socket getSocket()>
+==== DistODD impact set of [[<ChatServer.core.ServerDispatcher: void <init>()>]]  size=2 ====
+<ChatServer.core.MainServer: void main(java.lang.String[])>
+<ChatServer.core.ServerDispatcher: void <init>()>
+==== DistODD impact set of [[<ChatServer.core.ServerDispatcher: void run()>]]  size=1 ====
+<ChatServer.core.ServerDispatcher: void run()>
+==== DistODD impact set of [[<ChatServer.core.ServerDispatcher: java.lang.String getNextMessageFromQueue()>]]  size=2 ====
+<ChatServer.core.ServerDispatcher: java.lang.String getNextMessageFromQueue()>
+<ChatServer.core.ServerDispatcher: void run()>
+==== DistODD impact set of [[<ChatServer.handler.ClientInfo: void <init>()>]]  size=11 ====
+<ChatServer.handler.ClientSender: void <init>(ChatServer.handler.ClientInfo,ChatServer.core.ServerDispatcher)>
+<ChatServer.handler.ClientInfo: void setSender(ChatServer.handler.ClientSender)>
+<ChatServer.core.ServerDispatcher: void addClient(ChatServer.handler.ClientInfo)>
+<ChatServer.core.MainServer: void main(java.lang.String[])>
+<ChatServer.handler.ClientListener: void <init>(ChatServer.handler.ClientInfo,ChatServer.core.ServerDispatcher)>
+<ChatServer.handler.ClientInfo: void setListener(ChatServer.handler.ClientListener)>
+<ChatServer.handler.ClientListener: void run()>
+<ChatServer.handler.ClientInfo: void <init>()>
+<ChatServer.core.ServerDispatcher: void dispatchMessage(ChatServer.handler.ClientInfo,java.lang.String)>
+<ChatServer.handler.ClientInfo: void setSocket(java.net.Socket)>
+<ChatServer.handler.ClientInfo: java.net.Socket getSocket()>
+==== DistODD impact set of [[<ChatServer.handler.ClientInfo: void setSocket(java.net.Socket)>]]  size=10 ====
+<ChatServer.handler.ClientSender: void <init>(ChatServer.handler.ClientInfo,ChatServer.core.ServerDispatcher)>
+<ChatServer.handler.ClientInfo: void setSender(ChatServer.handler.ClientSender)>
+<ChatServer.core.ServerDispatcher: void addClient(ChatServer.handler.ClientInfo)>
+<ChatServer.core.MainServer: void main(java.lang.String[])>
+<ChatServer.handler.ClientListener: void <init>(ChatServer.handler.ClientInfo,ChatServer.core.ServerDispatcher)>
+<ChatServer.handler.ClientInfo: void setListener(ChatServer.handler.ClientListener)>
+<ChatServer.handler.ClientListener: void run()>
+<ChatServer.core.ServerDispatcher: void dispatchMessage(ChatServer.handler.ClientInfo,java.lang.String)>
+<ChatServer.handler.ClientInfo: void setSocket(java.net.Socket)>
+<ChatServer.handler.ClientInfo: java.net.Socket getSocket()>
+==== DistODD impact set of [[<ChatServer.handler.ClientListener: void <init>(ChatServer.handler.ClientInfo,ChatServer.core.ServerDispatcher)>]]  size=9 ====
+<ChatServer.handler.ClientSender: void <init>(ChatServer.handler.ClientInfo,ChatServer.core.ServerDispatcher)>
+<ChatServer.handler.ClientInfo: void setSender(ChatServer.handler.ClientSender)>
+<ChatServer.core.ServerDispatcher: void addClient(ChatServer.handler.ClientInfo)>
+<ChatServer.core.MainServer: void main(java.lang.String[])>
+<ChatServer.handler.ClientListener: void <init>(ChatServer.handler.ClientInfo,ChatServer.core.ServerDispatcher)>
+<ChatServer.handler.ClientInfo: void setListener(ChatServer.handler.ClientListener)>
+<ChatServer.handler.ClientListener: void run()>
+<ChatServer.core.ServerDispatcher: void dispatchMessage(ChatServer.handler.ClientInfo,java.lang.String)>
+<ChatServer.handler.ClientInfo: java.net.Socket getSocket()>
+==== DistODD impact set of [[<ChatServer.handler.ClientInfo: java.net.Socket getSocket()>]]  size=9 ====
+<ChatServer.handler.ClientSender: void <init>(ChatServer.handler.ClientInfo,ChatServer.core.ServerDispatcher)>
+<ChatServer.handler.ClientInfo: void setSender(ChatServer.handler.ClientSender)>
+<ChatServer.core.ServerDispatcher: void addClient(ChatServer.handler.ClientInfo)>
+<ChatServer.core.MainServer: void main(java.lang.String[])>
+<ChatServer.handler.ClientListener: void <init>(ChatServer.handler.ClientInfo,ChatServer.core.ServerDispatcher)>
+<ChatServer.handler.ClientInfo: void setListener(ChatServer.handler.ClientListener)>
+<ChatServer.handler.ClientListener: void run()>
+<ChatServer.core.ServerDispatcher: void dispatchMessage(ChatServer.handler.ClientInfo,java.lang.String)>
+<ChatServer.handler.ClientInfo: java.net.Socket getSocket()>
+==== DistODD impact set of [[<ChatServer.handler.ClientSender: void <init>(ChatServer.handler.ClientInfo,ChatServer.core.ServerDispatcher)>]]  size=5 ====
+<ChatServer.handler.ClientSender: void <init>(ChatServer.handler.ClientInfo,ChatServer.core.ServerDispatcher)>
+<ChatServer.handler.ClientInfo: void setSender(ChatServer.handler.ClientSender)>
+<ChatServer.core.ServerDispatcher: void addClient(ChatServer.handler.ClientInfo)>
+<ChatServer.core.MainServer: void main(java.lang.String[])>
+<ChatServer.handler.ClientInfo: void setListener(ChatServer.handler.ClientListener)>
+==== DistODD impact set of [[<ChatServer.handler.ClientInfo: void setListener(ChatServer.handler.ClientListener)>]]  size=4 ====
+<ChatServer.handler.ClientInfo: void setSender(ChatServer.handler.ClientSender)>
+<ChatServer.core.ServerDispatcher: void addClient(ChatServer.handler.ClientInfo)>
+<ChatServer.core.MainServer: void main(java.lang.String[])>
+<ChatServer.handler.ClientInfo: void setListener(ChatServer.handler.ClientListener)>
+==== DistODD impact set of [[<ChatServer.handler.ClientInfo: void setSender(ChatServer.handler.ClientSender)>]]  size=3 ====
+<ChatServer.handler.ClientInfo: void setSender(ChatServer.handler.ClientSender)>
+<ChatServer.core.ServerDispatcher: void addClient(ChatServer.handler.ClientInfo)>
+<ChatServer.core.MainServer: void main(java.lang.String[])>
+==== DistODD impact set of [[<ChatServer.handler.ClientListener: void run()>]]  size=13 ====
+<ChatServer.handler.ClientSender: void <init>(ChatServer.handler.ClientInfo,ChatServer.core.ServerDispatcher)>
+<ChatServer.handler.ClientListener: void <init>(ChatServer.handler.ClientInfo,ChatServer.core.ServerDispatcher)>
+<ChatServer.handler.ClientInfo: ChatServer.handler.ClientSender getSender()>
+<ChatServer.handler.ClientListener: void run()>
+<ChatServer.core.ServerDispatcher: void dispatchMessage(ChatServer.handler.ClientInfo,java.lang.String)>
+<ChatServer.core.ServerDispatcher: void sendMessageToAllClients(java.lang.String)>
+<ChatServer.handler.ClientInfo: void setSender(ChatServer.handler.ClientSender)>
+<ChatServer.core.ServerDispatcher: void addClient(ChatServer.handler.ClientInfo)>
+<ChatServer.core.MainServer: void main(java.lang.String[])>
+<ChatServer.handler.ClientInfo: void setListener(ChatServer.handler.ClientListener)>
+<ChatServer.handler.ClientSender: void sendMessage(java.lang.String)>
+<ChatServer.handler.ClientInfo: java.net.Socket getSocket()>
+<ChatServer.core.ServerDispatcher: void run()>
+==== DistODD impact set of [[<ChatServer.core.ServerDispatcher: void addClient(ChatServer.handler.ClientInfo)>]]  size=2 ====
+<ChatServer.core.ServerDispatcher: void addClient(ChatServer.handler.ClientInfo)>
+<ChatServer.core.MainServer: void main(java.lang.String[])>
+==== DistODD impact set of [[<ChatServer.handler.ClientSender: void run()>]]  size=1 ====
+<ChatServer.handler.ClientSender: void run()>
+==== DistODD impact set of [[<ChatServer.handler.ClientSender: java.lang.String getNextMessageFromList()>]]  size=2 ====
+<ChatServer.handler.ClientSender: void run()>
+<ChatServer.handler.ClientSender: java.lang.String getNextMessageFromList()>
+==== DistODD impact set of [[<ChatServer.handler.ClientInfo: ChatServer.handler.ClientSender getSender()>]]  size=13 ====
+<ChatServer.handler.ClientSender: void <init>(ChatServer.handler.ClientInfo,ChatServer.core.ServerDispatcher)>
+<ChatServer.handler.ClientListener: void <init>(ChatServer.handler.ClientInfo,ChatServer.core.ServerDispatcher)>
+<ChatServer.handler.ClientInfo: ChatServer.handler.ClientSender getSender()>
+<ChatServer.handler.ClientListener: void run()>
+<ChatServer.core.ServerDispatcher: void dispatchMessage(ChatServer.handler.ClientInfo,java.lang.String)>
+<ChatServer.core.ServerDispatcher: void sendMessageToAllClients(java.lang.String)>
+<ChatServer.handler.ClientInfo: void setSender(ChatServer.handler.ClientSender)>
+<ChatServer.core.ServerDispatcher: void addClient(ChatServer.handler.ClientInfo)>
+<ChatServer.core.MainServer: void main(java.lang.String[])>
+<ChatServer.handler.ClientInfo: void setListener(ChatServer.handler.ClientListener)>
+<ChatServer.handler.ClientSender: void sendMessage(java.lang.String)>
+<ChatServer.handler.ClientInfo: java.net.Socket getSocket()>
+<ChatServer.core.ServerDispatcher: void run()>
+==== DistODD impact set of [[<ChatServer.handler.ClientSender: void sendMessage(java.lang.String)>]]  size=12 ====
+<ChatServer.handler.ClientSender: void <init>(ChatServer.handler.ClientInfo,ChatServer.core.ServerDispatcher)>
+<ChatServer.handler.ClientInfo: void setSender(ChatServer.handler.ClientSender)>
+<ChatServer.core.ServerDispatcher: void addClient(ChatServer.handler.ClientInfo)>
+<ChatServer.core.MainServer: void main(java.lang.String[])>
+<ChatServer.handler.ClientListener: void <init>(ChatServer.handler.ClientInfo,ChatServer.core.ServerDispatcher)>
+<ChatServer.handler.ClientInfo: void setListener(ChatServer.handler.ClientListener)>
+<ChatServer.handler.ClientListener: void run()>
+<ChatServer.core.ServerDispatcher: void dispatchMessage(ChatServer.handler.ClientInfo,java.lang.String)>
+<ChatServer.core.ServerDispatcher: void sendMessageToAllClients(java.lang.String)>
+<ChatServer.handler.ClientSender: void sendMessage(java.lang.String)>
+<ChatServer.handler.ClientInfo: java.net.Socket getSocket()>
+<ChatServer.core.ServerDispatcher: void run()>
+==== DistODD impact set of [[<ChatServer.handler.ClientSender: void sendMessageToClient(java.lang.String)>]]  size=2 ====
+<ChatServer.handler.ClientSender: void run()>
+<ChatServer.handler.ClientSender: void sendMessageToClient(java.lang.String)>
+==== DistODD impact set of [[<ChatServer.core.ServerDispatcher: void dispatchMessage(ChatServer.handler.ClientInfo,java.lang.String)>]]  size=9 ====
+<ChatServer.handler.ClientSender: void <init>(ChatServer.handler.ClientInfo,ChatServer.core.ServerDispatcher)>
+<ChatServer.handler.ClientInfo: void setSender(ChatServer.handler.ClientSender)>
+<ChatServer.core.ServerDispatcher: void addClient(ChatServer.handler.ClientInfo)>
+<ChatServer.core.MainServer: void main(java.lang.String[])>
+<ChatServer.handler.ClientListener: void <init>(ChatServer.handler.ClientInfo,ChatServer.core.ServerDispatcher)>
+<ChatServer.handler.ClientInfo: void setListener(ChatServer.handler.ClientListener)>
+<ChatServer.handler.ClientListener: void run()>
+<ChatServer.core.ServerDispatcher: void dispatchMessage(ChatServer.handler.ClientInfo,java.lang.String)>
+<ChatServer.handler.ClientInfo: java.net.Socket getSocket()>
+==== DistODD impact set of [[<ChatServer.core.ServerDispatcher: void sendMessageToAllClients(java.lang.String)>]]  size=5 ====
+<ChatServer.handler.ClientInfo: ChatServer.handler.ClientSender getSender()>
+<ChatServer.handler.ClientListener: void run()>
+<ChatServer.core.ServerDispatcher: void sendMessageToAllClients(java.lang.String)>
+<ChatServer.handler.ClientSender: void sendMessage(java.lang.String)>
+<ChatServer.core.ServerDispatcher: void run()>
