@@ -6,7 +6,7 @@ Project artifact for:
 
 - Original artifact URL: <https://bitbucket.org/wsucailab/distodd>
 - Imported via `pubs2github` from the publications page
-- Downloader: `git` — Cloned https://bitbucket.org/wsucailab/distodd.git (407 files)
+- Downloader: `git` — existing repo/ (814 files)
 
 
 This repository was created automatically. The contents under this
